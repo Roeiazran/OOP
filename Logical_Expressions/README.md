@@ -48,13 +48,21 @@ represnts the expression as a string. for example: ((x & y) ^ T)
 more preciselly
 
 given:
+
 And(x,y) = (x & y)
+
 Or(x,y) = (x | y)
+
 Xor(x,y) = (x ^ y)
+
 Nand(x,y) = (x A y)
+
 Nor(x,y) = (x V y)
+
 Xnor(x,y) = (x # y)
+
 Not(x) = ~(x)
+
 
 the programm will supports the following simplifications:
 
