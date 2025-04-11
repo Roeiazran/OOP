@@ -26,6 +26,7 @@ travel the screen.
 
 to run the programm (from the root folder):
 > javac -cp biuoop-1.4.jar:src src/MultipleBouncingBallsAnimation.java -d bin
+
 > java -cp biuoop-1.4.jar:bin MultipleBouncingBallsAnimation s1 s2 ... sn
 
 --------------------
@@ -34,6 +35,7 @@ The firth programm will n balls halve of then will travel inside a frame and the
 
 to run the programm (from the root folder):
 > javac -cp biuoop-1.4.jar:src src/MultipleFramesBouncingBallsAnimation.java -d bin
+
 > java -cp biuoop-1.4.jar:bin MultipleFramesBouncingBallsAnimation s1 s2 ... sn
 
 --------------------
