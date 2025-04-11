@@ -43,21 +43,37 @@ Not(x) = ~(x)
 the programm will supports the following simplifications:
 
 x & 1 = x
+
 x & 0 = 0
+
 x & x = x
+
 x | 1 = 1
+
 x | 0 = x
+
 x | x = x
+
 x ^ 1 = ~(x)
+
 x ^ 0 = x
+
 x ^ x = 0
+
 x A 1 = ~(x)
+
 x A 0 = 1
+
 x A x = ~(x)
+
 x V 1 = 0
+
 x V 0 = ~(x)
+
 x V x = ~(x)
+
 x # x = 1
+
 
 By the nature of the expresstion's repsented as a tree the programm uses recursion
 to implement those abilities. also the programm handle error by throwing execptions and catching them.
