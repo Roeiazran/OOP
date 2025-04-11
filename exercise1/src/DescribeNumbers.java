@@ -1,4 +1,3 @@
-// 204058366 Roei Azran
 /**
  * The DescribeNumbers Class provides methods on array numbers.
  *
