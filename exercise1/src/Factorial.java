@@ -1,4 +1,3 @@
-// 204058366 Roei Azran
 /**
  * The Factorial Class provides factorial methods on numbers.
  *
