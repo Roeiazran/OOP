@@ -6,7 +6,8 @@ for example ((x & y) ^ T) will be represnted as:
        /   \
       &     T
     /   \
-   x     y
+   x     y 
+.
 
 -----
 
