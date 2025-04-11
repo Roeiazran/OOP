@@ -1,5 +1,4 @@
 # OOP
-bar-ilan OOP course exercises. 
+bar-ilan OOP course projects written in Java.
 
-Exercies desctiptions:
-1. 
+The important one's are the Arknoid and Logical Expressions.
