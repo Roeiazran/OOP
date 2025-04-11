@@ -1,15 +1,14 @@
 This OOP programm represntes mathematical logical expressions as a tree.
 for example ((x & y) ^ T) will be represnted as:
 
------
+
+```
         Xor
        /   \
       &     T
     /   \
    x     y 
-.
-
------
+```
 
 and in the programm itself repesened as:
 
