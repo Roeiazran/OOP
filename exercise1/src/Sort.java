@@ -1,4 +1,3 @@
-// 204058366 Roei Azran
 /**
  * The Sort Class provides methods to sort in descending or ascending order.
  *
