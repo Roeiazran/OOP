@@ -19,28 +19,28 @@ Expression e = new Xor(new And(new Var("x"), new Var("y")), new Val(true));
 Given an expression the programm will provide the alibity to:
 
 1. ``` e.toString()```
-represnts the expression as a string: ((x & y) ^ T)
+represnts the expression as a string. for example: ((x & y) ^ T)
 
-3. e.getVariables()
+3. ```e.getVariables()```
 
     get the variables in the expression: x y
-3.1 e.assign("y", e2)
+3.1 ```e.assign("y", e2)```
 
     assign's expression to variables.
    
-3.2 e.assign("y", new Val(false))
+3.2 ```e.assign("y", new Val(false))```
 
     assing's value to variable.
 
-5. e.evaluate()
+5. ```e.evaluate()```
    
     Evaluate its value for a given variable assignment to values.
 
-7. e.nandify(), e.norify()
+7. ```e.nandify(), e.norify()```
    
     Nandify and Norify a given expression.
 
-9. e.simplify()
+9. ```e.simplify()```
 
     simplifiction of a given expression: ((x & F) ^ (y | F)) --> (y)
 
