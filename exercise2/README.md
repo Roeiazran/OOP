@@ -7,6 +7,7 @@ If 3 lines intersects and create a rectangle this rectangle will be drawn in gre
 
 to run the programm (from the root folder):
 > javac -cp biuoop-1.4.jar:src src/AbstractArtDrawing.java -d bin
+
 > java -cp biuoop-1.4.jar:bin AbstractArtDrawing
 
 --------------------
@@ -14,7 +15,8 @@ to run the programm (from the root folder):
 The second programm generate a ball at a given coordinates x and y, the ball will travel the screen at velocity dx and dy given.
 
 to run the programm (from the root folder):
-> javac -cp biuoop-1.4.jar:src src/BouncingBallAnimation.java -d bin \n
+> javac -cp biuoop-1.4.jar:src src/BouncingBallAnimation.java -d bin
+
 > java -cp biuoop-1.4.jar:bin BouncingBallAnimation x y dx dy
 
 --------------------
