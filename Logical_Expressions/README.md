@@ -18,7 +18,7 @@ Expression e = new Xor(new And(new Var("x"), new Var("y")), new Val(true));
 
 Given an expression the programm will provide the alibity to:
 
-1. e.toString()
+1. ``` e.toString()```
 represnts the expression as a string: ((x & y) ^ T)
 
 3. e.getVariables()
