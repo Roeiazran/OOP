@@ -14,7 +14,7 @@ to run the programm (from the root folder):
 The second programm generate a ball at a given coordinates x and y, the ball will travel the screen at velocity dx and dy given.
 
 to run the programm (from the root folder):
-> javac -cp biuoop-1.4.jar:src src/BouncingBallAnimation.java -d bin
+> javac -cp biuoop-1.4.jar:src src/BouncingBallAnimation.java -d bin \n
 > java -cp biuoop-1.4.jar:bin BouncingBallAnimation x y dx dy
 
 --------------------
