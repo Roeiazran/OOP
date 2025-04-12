@@ -10,7 +10,7 @@ for example `((x & y) ^ T)` will be represnted as:
    x     y 
 ```
 
-and in the programm itself repesened as:
+and in the programm itself as:
 
 ```
 Expression e = new Xor(new And(new Var("x"), new Var("y")), new Val(true));
