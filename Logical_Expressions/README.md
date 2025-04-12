@@ -16,7 +16,7 @@ and in the programm itself as:
 Expression e = new Xor(new And(new Var("x"), new Var("y")), new Val(true));
 ```
 
-Given an expression the programm will provide the alibity to:
+Given an expression the programm will provide the following features:
 
 1. ``` e.toString()``` Represnts the expression as a string.
 
@@ -31,64 +31,41 @@ Given an expression the programm will provide the alibity to:
 
 8. ```e.simplify()``` Simplify the expression. (i.e ```((x & F) ^ (y | F)) --> (y)```)
 
-
-more preciselly
-
-given:
-
+We agree on the following symbols:
+```
 And(x,y) = (x & y)
-
 Or(x,y) = (x | y)
-
 Xor(x,y) = (x ^ y)
-
 Nand(x,y) = (x A y)
-
 Nor(x,y) = (x V y)
-
 Xnor(x,y) = (x # y)
-
 Not(x) = ~(x)
+```
+and the programm will supports the following simplifications:
 
-
-the programm will supports the following simplifications:
-
+```
 x & 1 = x
-
 x & 0 = 0
-
 x & x = x
-
 x | 1 = 1
-
 x | 0 = x
-
 x | x = x
-
 x ^ 1 = ~(x)
-
 x ^ 0 = x
-
 x ^ x = 0
-
 x A 1 = ~(x)
-
 x A 0 = 1
-
 x A x = ~(x)
-
 x V 1 = 0
-
 x V 0 = ~(x)
-
 x V x = ~(x)
-
 x # x = 1
+```
 
+By the nature of the expression's repsented as a tree the programm uses recursion
+to implement the features mentioned. Also the programm handle's errors by throwing execptions and catching them.
 
-By the nature of the expresstion's repsented as a tree the programm uses recursion
-to implement those abilities. also the programm handle error by throwing execptions and catching them.
-
+----
 
 To run the programm you'll need to open the ExpressionTest decalre an expression
 and run one or more of the function's described above and in the Expression interface.
