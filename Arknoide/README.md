@@ -14,5 +14,9 @@ to keep track of a score.
 To run the programm (from the root directory):
 ```
 > javac -d bin -cp biuoop-1.4.jar:src src/*.java
+```
+
+and then run:
+```
 > java -cp biuoop-1.4.jar:bin src/Ass5Game.java
 ```
