@@ -21,15 +21,15 @@ Given an expression the programm will provide the alibity to:
 1. ``` e.toString()``` Represnts the expression as a string.
 
 3. ```e.getVariables()``` Get the variables in the expression: x y
-3.1 ```e.assign("y", e2)``` Assign's expression to variables.
+4.  ```e.assign("y", e2)``` Assign's expression to variables.
 
-3.2 ```e.assign("y", new Val(false))``` Assing's value to variable.
+5.  ```e.assign("y", new Val(false))``` Assing's value to variable.
 
-5. ```e.evaluate()``` Evaluate its value for a given variable assignment to values.
+6. ```e.evaluate()``` Evaluate its value for a given variable assignment to values.
 
 7. ```e.nandify(), e.norify()``` Nandify and Norify a given expression.
 
-9. ```e.simplify()``` Simplifiction of a given expression: ```((x & F) ^ (y | F)) --> (y)```
+8. ```e.simplify()``` Simplifiction of a given expression: ```((x & F) ^ (y | F)) --> (y)```
 
 
 more preciselly
