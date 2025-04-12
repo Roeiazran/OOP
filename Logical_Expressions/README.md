@@ -67,15 +67,19 @@ to implement the features mentioned. Also the programm handle's errors by throwi
 
 ----
 
-To run the programm you'll need to open the ExpressionTest decalre an expression
-and run one or more of the function's described above and in the Expression interface.
+To run the programm you'll need to open the ExpressionTest file and decalre an expression,
+then run one or more of the function's described above and in the Expression interface.
 
 Create the bin directory (from the root directory):
-> javac -d bin src/*.java
+```
+javac -d bin src/*.java
+```
 
-Go to the bin directory and run:
-> java ../src/ExpressionTest.java -cp .
+Then change the current directory to the bin directory and run:
 
+```
+java ../src/ExpressionTest.java -cp .
+```
 
 
 
