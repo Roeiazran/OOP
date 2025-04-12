@@ -1,5 +1,5 @@
 This OOP programm represntes mathematical logical expressions as a tree.
-for example ((x & y) ^ T) will be represnted as:
+for example `((x & y) ^ T)` will be represnted as:
 
 
 ```
