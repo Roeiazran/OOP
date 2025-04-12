@@ -29,7 +29,7 @@ Given an expression the programm will provide the alibity to:
 
 7. ```e.nandify(), e.norify()``` Nandifies and Norifies the expression.
 
-8. ```e.simplify()``` Simplity the expression. (i.e ```((x & F) ^ (y | F)) --> (y)```)
+8. ```e.simplify()``` Simplify the expression. (i.e ```((x & F) ^ (y | F)) --> (y)```)
 
 
 more preciselly
