@@ -25,11 +25,11 @@ Given an expression the programm will provide the alibity to:
 
 5.  ```e.assign("y", new Val(false))``` Assing's value to variable.
 
-6. ```e.evaluate()``` Evaluate the experssion truth value for a given variable assignment to values.
+6. ```e.evaluate()``` Evaluate's the experssion truth value for a given variable's assignment to values.
 
-7. ```e.nandify(), e.norify()``` Nandify and Norify a given expression.
+7. ```e.nandify(), e.norify()``` Nandifies and Norifies the expression.
 
-8. ```e.simplify()``` Simplifiction of a given expression: ```((x & F) ^ (y | F)) --> (y)```
+8. ```e.simplify()``` Simplity the expression. (i.e ```((x & F) ^ (y | F)) --> (y)```)
 
 
 more preciselly
