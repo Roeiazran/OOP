@@ -11,7 +11,7 @@ The programm implemtnts software design patterns such as listeners and interface
 to keep track of a score.
 
 
-To run the programm (from the root directory):
+To run the programm get to the root directory and execute the following commends:
 ```
 javac -d bin -cp biuoop-1.4.jar:src src/*.java
 ```
