@@ -1,4 +1,4 @@
-#Arknoid Game.
+# Arknoid Game.
 
 This programm is a simple arkenoid game written in java OOP.
 In the game the goal is to remove all the block by hitting them with a ball
