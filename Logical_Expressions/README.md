@@ -25,7 +25,7 @@ Given an expression the programm will provide the alibity to:
 
 5.  ```e.assign("y", new Val(false))``` Assing's value to variable.
 
-6. ```e.evaluate()``` Evaluate its value for a given variable assignment to values.
+6. ```e.evaluate()``` Evaluate the experssion truth value for a given variable assignment to values.
 
 7. ```e.nandify(), e.norify()``` Nandify and Norify a given expression.
 
