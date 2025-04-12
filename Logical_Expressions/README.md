@@ -21,7 +21,7 @@ Given an expression the programm will provide the alibity to:
 1. ``` e.toString()``` Represnts the expression as a string.
 
 3. ```e.getVariables()``` Get the variables in the expression: x y
-4.  ```e.assign("y", e2)``` Assign's expression to variables.
+4.  ```e.assign("y", e2)``` Assign's expression to variable.
 
 5.  ```e.assign("y", new Val(false))``` Assing's value to variable.
 
