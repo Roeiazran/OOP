@@ -1,4 +1,3 @@
-// 204058366 Roei Azran
 package environment;
 import java.util.ArrayList;
 import java.util.List;
