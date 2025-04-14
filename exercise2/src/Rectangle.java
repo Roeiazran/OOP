@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 /**
  * provides instaciation of a rectanle and getter to its corners and lines.
  *
