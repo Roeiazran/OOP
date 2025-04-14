@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 package listeners;
 /**
  *  Provides interface for the Subject.
