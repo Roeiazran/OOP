@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 package sprites;
 import biuoop.DrawSurface;
 import java.util.ArrayList;
