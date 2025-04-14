@@ -78,7 +78,7 @@ Create the bin directory (from the root directory):
 javac -d bin src/*.java
 ```
 
-then co to the bin directory and run:
+after that change the current directoru to bin directory and run:
 ```
 java ../src/ExpressionTest.java -cp .
 ```
