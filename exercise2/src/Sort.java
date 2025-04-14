@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 /**
  * The Sort Class provides methods to sort integers array.
  *
