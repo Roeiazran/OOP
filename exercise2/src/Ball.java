@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 import biuoop.DrawSurface;
 /**
  *  Provides methods to displays balls and rectangle on the screen.
