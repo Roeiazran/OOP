@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 /**
  * Point Class made to reason about point of the form (x,y).
  *
