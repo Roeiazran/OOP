@@ -20,11 +20,11 @@ Given an expression the programm will provide the alibity to:
 1. ```e.toString() ```
     represnts the expression as a string: ((x & y) ^ T) 
 2. ```e.getVariables()``` get the variables in the expression.  
-3.1 ``` e.assign("y", e2)``` assign's expression to variables.  
-3.2 ```e.assign("y", new Val(false))``` assing's value to variable.  
-4. ```e.evaluate()``` evaluate its value for a given variable assignment to values.  
-5. ```e.nandify(), e.norify()``` Nandify and Norify a given expression.  
-6. ```e.simplify()``` simplifiction of a given expression: ((x & F) ^ (y | F)) --> (y)  
+3 ``` e.assign("y", e2)``` assign's expression to variables.  
+4. ```e.assign("y", new Val(false))``` assing's value to variable.  
+5. ```e.evaluate()``` evaluate its value for a given variable assignment to values.  
+6. ```e.nandify(), e.norify()``` Nandify and Norify a given expression.  
+7. ```e.simplify()``` simplifiction of a given expression: ((x & F) ^ (y | F)) --> (y)  
 
 given:
 ```
