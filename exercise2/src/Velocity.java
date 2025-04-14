@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 /**
  * The velocity class provides method to apply on a moving ball.
  *
