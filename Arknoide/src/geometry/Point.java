@@ -1,4 +1,3 @@
-// 204058366 Roei Azran
 package geometry;
 import java.util.List;
 /**
