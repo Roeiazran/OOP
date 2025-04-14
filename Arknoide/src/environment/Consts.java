@@ -1,4 +1,3 @@
-// 204058366 Roei Azran
 package environment;
 import java.awt.Color;
 
