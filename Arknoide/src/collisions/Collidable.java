@@ -1,4 +1,3 @@
-//204058366
 package collisions;
 import geometry.Point;
 import geometry.Rectangle;
