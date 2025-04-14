@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 package shapes;
 import java.awt.Color;
 import java.util.ArrayList;
