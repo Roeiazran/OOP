@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 /**
  * Slope class provides methods to reason about equations slopes.
  *
