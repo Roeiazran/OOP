@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 import java.awt.Color;
 import java.util.Random;
 import biuoop.DrawSurface;
