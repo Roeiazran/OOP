@@ -1,11 +1,13 @@
 This OOP programm represntes mathematical logical expressions as a tree.
 for example ((x & y) ^ T) will be represnted as:
 
+```
         Xor
        /   \
       &     T
     /   \
    x     y
+```
 
 and in the programm itself repesened as:
 
@@ -62,16 +64,24 @@ x # x = 1
 By the nature of the expresstion's repsented as a tree the programm uses recursion
 to implement those abilities. also the programm handle error by throwing execptions and catching them.
 
+# 
 
 To run the programm you'll need to open the ExpressionTest decalre an expression
 and run one or more of the function's described above and in the Expression interface.
 
+In the expressionTest you'll find the following expression:
+
+![](pic.png)
+
 Create the bin directory (from the root directory):
-> javac -d bin src/*.java
+```
+javac -d bin src/*.java
+```
 
-Go to the bin directory and run:
-> java ../src/ExpressionTest.java -cp .
-
+then co to the bin directory and run:
+```
+java ../src/ExpressionTest.java -cp .
+```
 
 
 
