@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 /**
  * Equation class provides method to reason about linear equations.
  *
