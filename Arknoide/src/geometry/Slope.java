@@ -1,4 +1,3 @@
-// 204058366 Roei Azran
 package geometry;
 /**
  * Slope class provides methods to reason about equations slopes.
