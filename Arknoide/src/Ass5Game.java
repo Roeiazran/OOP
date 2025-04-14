@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 import environment.Game;
 
 /**
