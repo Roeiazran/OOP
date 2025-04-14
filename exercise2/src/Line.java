@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 /**
  * Line class provids method on lines.
  *
