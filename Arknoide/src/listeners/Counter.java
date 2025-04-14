@@ -1,4 +1,4 @@
-// 204058366 Roei Azran
+
 package listeners;
 /**
  *  Provides methods for the block counter.
