@@ -1,4 +1,4 @@
-This OOP programm represntes mathematical logical expressions as a tree.
+This OOP program represnts mathematical logical expressions as a tree.
 for example ((x & y) ^ T) will be represnted as:
 
 ```
