@@ -9,13 +9,13 @@ for example ((x & y) ^ T) will be represnted as:
    x     y
 ```
 
-and in the programm itself repesened as:
+and in the program itself repesened as:
 
 ```
 Expression e = new Xor(new And(new Var("x"), new Var("y")), new Val(true));
 ```
 
-Given an expression the programm will provide the alibity to:
+Given an expression the program will provide the alibity to:
 
 1. ```e.toString() ``` represnts the expression as a string: ((x & y) ^ T)  
 2. ```e.getVariables()``` get the variables in the expression.  
@@ -36,7 +36,7 @@ Xnor(x,y) = (x # y)
 Not(x) = ~(x)
 ```
 
-the programm will supports the following simplifications:
+the program will supports the following simplifications:
 
 ```
 x & 1 = x
@@ -56,13 +56,13 @@ x V 0 = ~(x)
 x V x = ~(x)
 x # x = 1
 ```
-By the nature of the expresstion's repsented as a tree the programm uses recursion
-to implement those abilities. also the programm handle error by throwing execptions and catching them.
+By the nature of the expressions repsented as a tree the programm uses recursion
+to implement those abilities. also the programm handles error by throwing execptions and catching them.
 
 # 
 
-To run the programm you'll need to open the ExpressionTest decalre an expression
-and run one or more of the function's described above and in the Expression interface.
+To run the program you'll need to open the ExpressionTest decalre an expression
+and run one or more of the functions described above and in the Expression interface.
 
 In the expressionTest you'll find the following expression:
 
