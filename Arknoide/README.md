@@ -1,17 +1,14 @@
 # Arknoid Game.
 
-This program is a simple arknoid game written in java OOP.
-In the game the goal is to remove all the block by hitting them with a ball
-that can be directed using a moving paddle, and if the ball hits the floor it will 
-be removed from the game, so the player must remove all the blocks before all his balls 
-get removed.
+This program is a simple Arkanoid game written in Java using OOP principles. The goal of the game is to remove all the blocks by hitting them with a ball, which can be directed using a moving paddle. If the ball hits the floor, it is removed from the game, so the player must destroy all blocks before losing all balls.
 
 
-The program implemtnts software design patterns such as listeners and interfaces
-to keep track of a score.
+The program implements software design patterns, such as listeners and interfaces, to track the score.
 
 
-To run the program get to the root directory and execute the following commends:
+To run the program:
+Navigate to the root directory and execute the following commands:
+
 ```
 javac -d bin -cp biuoop-1.4.jar:src src/*.java
 ```
