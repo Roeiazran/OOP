@@ -2,38 +2,36 @@ Simple Animations program
 
 --------------------
 
-The first program generates 10 lines, drawn in black. The middle point in each line is indicated in blue, while the intersection points between the lines are indicated in red.
-If 3 lines intersects and create a rectangle this rectangle will be drawn in green.
+The program generates 10 lines, drawn in black. The midpoint of each line is marked in blue, while intersection points between lines are marked in red. If three lines intersect to form a rectangle, the rectangle is drawn in green.
 
-to run the program (from the root folder):
+To run the program (from the root folder):
 > javac -cp biuoop-1.4.jar:src src/AbstractArtDrawing.java -d bin
 
 > java -cp biuoop-1.4.jar:bin AbstractArtDrawing
 
 --------------------
 
-The second program generates a ball at a given coordinates x and y, this ball will travel the screen at velocity dx and dy given.
+The program generates a ball at specified coordinates ```(x, y)```. The ball moves across the screen with a given velocity ```(dx, dy)```.
 
-to run the programm (from the root folder):
+To run the program (from the root folder):
 > javac -cp biuoop-1.4.jar:src src/BouncingBallAnimation.java -d bin
 
 > java -cp biuoop-1.4.jar:bin BouncingBallAnimation x y dx dy
 
 --------------------
 
-The third program creates n balls with sized s1, s2, .. sn given. The balls will
-travel the screen.
+The program creates n balls with specified sizes ```s1, s2, …, sn```. The balls move across the screen.
 
-to run the programm (from the root folder):
+To run the programm (from the root folder):
 > javac -cp biuoop-1.4.jar:src src/MultipleBouncingBallsAnimation.java -d bin
 
 > java -cp biuoop-1.4.jar:bin MultipleBouncingBallsAnimation s1 s2 ... sn
 
 --------------------
 
-The fourth program creates n balls in such a way that half of then will travel inside a frame and the other half will travel outside it, all that while staying out of eac other frames.
+The program creates n balls such that half travel inside a frame and the other half travel outside it, while ensuring that the balls do not overlap with each other’s frames.
 
-to run the program (from the root folder):
+To run the program (from the root folder):
 > javac -cp biuoop-1.4.jar:src src/MultipleFramesBouncingBallsAnimation.java -d bin
 
 > java -cp biuoop-1.4.jar:bin MultipleFramesBouncingBallsAnimation s1 s2 ... sn
